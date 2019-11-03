@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Teagle</title>
+  <link rel="stylesheet" href="./css/flexboxgrid.css" />
+  <link rel="stylesheet" href="./css/css/font-awesome.css" />
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div id="navigation-collapse">
+    <div id="logo">
+      <img src="./images/EagleLogo.png" alt="teagle" />
+    </div>
+    <nav>
+      <ul id="navigationList">
+        <li><a href="#header" class="scroll">Home</a></li>
+        <li><a href="#about" class="scroll">Product</a></li>
+        <li><a href="#features" class="scroll">Features</a></li>
+        <li><a href="#consulting" class="scroll">Consulting</a></li>
+        <!-- <li><a href="./index.html">Blogs</a></li> -->
+        <li><a href="#contact" class="scroll">Contacts</a></li>
+        <li><a href="#" class="scroll" style="background-color: #00ace6; color: #fff;"  id="myBtn">Product Login</a></li>
+        <li>
+            <div id="myModal" class="modal">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <span class="close">&times;</span>
+                  <h2>Sign In</h2>
+                </div>
+                <div class="modal-body">
+                  <form action="#" method="post" id="loginform">
+                    <input type="text" required name="id" value="" placeholder="Username"/>
+                    <br>
+                    <input type="password" required class="password" name="pass" value="" placeholder="Password"/>
+                    <img src="./images/eye.svg" alt="showHide" id="showHide" />
+                    <br>
+                    <input type="checkbox" id="checkbox" name="remember" checked value="Remember Me"/>
+                    <label for="checkbox">Remember Me</label>
+                    <button type="submit" name="login">Sign In</button>
+                    <!-- <button type="submit" id="btnreg" name="register" formaction="./registration.php">Sign Up</button> -->
+                  </form>
+                </div>
+                <div class="modal-footer">
+                <h3>&copy; 2017, Hrinzights Technologies Private Limited</h3>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <section id="header">
+    <h1 class="headerText">Matching People with Careers...<br>Powered with Artificial Intelligence</h1>
+    <div>
+      <img src="./images/Eagle - Teagle page.png" class="headerimg" alt="header image"/>
+    </div>
+    <div class="counters">
+      <div class="row align">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <p id="add"><span class="count">166254</span></p>
+          <p class="tag">Resumes Passed</p>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <p id="add"><span class="count">98265</span></p>
+          <p class="tag">Matched & Ranked</p>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <p id="add"><span class="count">3512</span></p>
+          <p class="tag">Hours Assisted</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <h1 class="productName">TeagleHire<sup>&trade;</sup></h1>
+    <p class="caption">Game changing product for recruiters...<br>Created by Practitioners with Real Life Insights</p>
+    <img src="./images/productworkb.svg" alt="productWork" id="productwork"/>
+    <div id="productPrinciple">
+      <p>Product Design Principles</p>
+      <ul>
+        <li>Keep it simple</li>
+        <li>Automate to free recruiter to engage with the candidates</li>
+        <li>Implement best technologies</li>
+      </ul>
+    </div>
+  </section>
+  <hr id="seperate">
+  <section id="workflow">
+      <h1 id="workflowhead">ATS - WorkFlow Engine</h1>
+          <!-- <div>
+            <div><img src="./images/gear.png" alt="" id="geara"></div>
+            <div><img src="./images/gear.png" alt="" id="gearb"></div>
+            <div><img src="./images/gear.png" alt="" id="gearc"></div>
+          </div> -->
+          <div id="aboutats">
+              <p>Teagle ATS is design is…</p>
+              <ul>
+                <li><span id="atsimp">SIMPLE</span> to use focusing on Recruiters and the Hiring Managers</li>
+                <li><span id="atsimp">INTUITIVE</span> with several Insights</li>
+                <li><span id="atsimp">ELEGANT</span> with great UI/UX capability</li>
+              </ul>
+          </div>
+      <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 divide">
+            <img id="workflowa" src="./images/samples.png" alt="workflow"/>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 animated fadeInUp">
+            <div class="row">
+                <div class="row">
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <img id="workb" src="./images/workb.svg" alt="workflow b"/>
+                  </div>
+                </div>
+                <div class="row worktext">
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <p><i class="fa fa-star"></i> Our dashboard reports facilitates enough pipeline is being maintained by the recruiters or plan for actions to increase the candidate inflow. </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <p><i class="fa fa-star"></i> Provides visibility on which sourcing channel is more productive and thereby helping the recruiters for future actions. </p>
+                  </div>
+
+                </div>
+                <div class="row worktext">
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <p><i class="fa fa-star"></i> Keeps capturing all Resumes irrespective of whether it is viewed on screen, received on email or company career page thereby building a large database. </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <p><i class="fa fa-star"></i>  Most ATS are not recruiter friendly. Teagle makes it simple to use and facilitates higher productivity and reduces cost. </p>
+                  </div>
+
+                </div>
+            </div>
+          </div>
+      </div>
+      <div id="bgats">
+      </div>
+    </section>
+    <section id="features">
+          <div class="container">
+              <div class="row center-xs center-sm center-md center-lg">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 title">
+                      <h1>	Product Features	</h1>
+                    </div>
+                      <br><br>
+                  <div class="row">
+                      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 animated fadeInUp revealOnScroll">
+                        <i class="fa fa-dashboard"></i><br>
+                        <h4> Auto Resume Parsing </h4>
+                        <p> Our parser is highly accurate making it one of the best products in the market. This is backed up by Continuous Research, Benchmarked AI algorithms and Machine Learning bettering everyday. </p>
+                      </div>
+                      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 animated fadeInUp">
+                        <i class="fa fa-file-text-o"></i><br>
+                        <h4>Auto JD Parsing</h4>
+                        <p> Teagle is linked to all channels such as social, job boards, company database, email, etc. On receipt of the JD it automatically searches and brings out the best profiles continuing this until the position closed. </p>
+                      </div>
+                      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 animated fadeInUp">
+                        <i class="fa fa-pie-chart"></i><br>
+                        <h4> Matching & Ranking</h4>
+                        <p> Our unique ontology model combines with AI algorithms enables the match accurately and ranks the candidates with the ranking to make it easy to take action. </p>
+                      </div>
+                  </div>
+                  <br>	<br>
+                  <div class="row">
+                      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 animated fadeInUp revealOnScroll">
+                        <i class="fa fa-refresh"></i><br>
+                        <h4> Database Refresh </h4>
+                        <p> Teagle keeps reaching out to passive candidates to keep the database updated on a periodical basis as per settings. This will ensure to find the candidates sooner and reducing the cost of hire. </p>
+                      </div>
+                      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 animated fadeInUp">
+                        <i class="fa fa-ravelry"></i><br>
+                        <h4>Auto Rematch</h4>
+                        <p> On receiving new JD the system automatically first searches the internal database to find the right match. Teagle keeps record opf past matches and their status to ensure only the right candidates are reach out.</p>
+                      </div>
+                      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 animated fadeInUp">
+                        <i class="fa fa-microphone"></i><br>
+                        <h4>24/7 Virtual Assistant</h4>
+                        <p> Our Virtual Assistant works for you 24/7 by filtering, finding and reaching out the right candidates and reminding recruiters to take actions on time without missing any good candidates. </p>
+                      </div>
+                  </div>
+                  <br><br>
+                  <div class="row">
+                  <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 animated fadeInUp">
+                    <i class="fa fa-group"></i><br>
+                    <h4> Candidate Engagement</h4>
+                    <p> Teagle reaches out to matched candidates to do the initial interest check and collect basic information so that the initial screening is completed reducing recruiter's time tremendously. </p>
+                  </div>
+                  <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 animated fadeInUp">
+                    <i class="fa fa-check-square-o"></i><br>
+                    <h4> Matching Trends</h4>
+                    <p> Teagle keeps a watch on the matching trends on how the hiring managers and candidates are matched for which job thereby providing higher accuracy of future matches. </p>
+                  </div>
+                      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 animated fadeInUp">
+                        <i class="fa fa-handshake-o"></i><br>
+                        <h4> Recruiter Friendly ATS</h4>
+                        <p>Most ATS are not recruiter friendly. Teagle makes it simple to use and facilitates higher productivity and reduces cost. </p>
+                      </div>
+                  </div>
+                  <br><br>
+                  <div class="row">
+                      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 animated fadeInUp revealOnScroll">
+                        <i class="fa fa-indent"></i><br>
+                        <h4>Pipeline Reports </h4>
+                        <p> Our dashboard reports facilitates enough pipeline is being maintained by the recruiters or plan for actions to increase the candidate inflow. </p>
+                      </div>
+                      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <i class="fa fa-line-chart"></i><br>
+                        <h4>Source Mix Watch</h4>
+                        <p> Provides visibility on which sourcing channel is more productive and thereby helping the recruiters for future actions. </p>
+                      </div>
+                      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 animated fadeInUp">
+                        <i class="fa fa-database"></i><br>
+                        <h4> Building Database</h4>
+                        <p> Keeps capturing all Resumes irrespective of whether it is viewed on screen, received on email or company career page thereby building a large database. </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+    <section id="others">
+      <div class="counters">
+        <h1>Our Other Products...<span id="first">TeagleBiz<sup>&trade;</sup></span><span id="second">TeagleBP<sup>&trade;</sup></span></h1>
+      </div>
+    </section>
+    <section id="consulting">
+      <h1 align="center">Consulting Services</h1>
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <h1>Talent Acquisition</h1>
+          <table id="talenttbl" style="margin-left: -10%;padding: 20px 25px; margin-top: -5%;">
+            <tr>
+              <td><i class="fa fa-group"></i><br>sourcing campaigns</td>
+              <td><i class="fa fa-low-vision"></i><br>Screening and Mapping</td>
+              <td><i class="fa fa-tasks"></i><br>Assessment</td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-rocket"></i><br>RPO Services</td>
+              <td><i class="fa fa-line-chart"></i><br>Competency Development</td>
+              <td><i class="fa fa-thumbs-o-up"></i><br>post offer follow up</td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-paste"></i><br>vendor management services</td>
+                <td><i class="fa fa-eercast"></i><br>market intelligence</td>
+              <td><i class="fa fa-cogs"></i><br>compliance and audit</td>
+            </tr>
+          </table>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <h1>Employee Engagement</h1>
+          <table id="talenttbl" style="margin-left: 8%;">
+            <tr>
+              <td><i class="fa fa-map-o"></i><br>Competency Mapping</td>
+              <td><i class="fa fa-bar-chart"></i><br>Performance Management</td>
+                <td><i class="fa fa-map-sign"></i><br>Career Development</td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-question-circle-o"></i><br>HR Helpdesk</td>
+                <td><i class="fa fa-calender-plus-o"></i><br>Pulse Survey</td>
+                <td><i class="fa fa-sliders"></i><br>Retension Management</td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-dashboard"></i><br>HRBP Dashboard</td>
+              <td><i class="fa fa-suitcase"></i><br>Goal Setting</td>
+            </tr>
+          </table>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <h1 style="margin-left: 10%;">Business Operations</h1>
+          <table id="talenttbl" style="margin-left: 25%;">
+            <tr>
+              <td><i class="fa fa-sort-amount-asc"></i><br>Cost Optimisation</td>
+              <td><i class="fa fa-linode"></i><br>Upskilling</td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-cubes"></i><br>Bench Optimisation</td>
+              <td><i class="fa fa-puzzle-piece"></i><br>Optimisation Dashboards</td>
+            </tr>
+          </table>
+        </div>
+    </section>
+    <section id="contact">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <i class="fa fa-map-marker"></i>
+          <h1>Office</h1>
+          <address>
+            <p>Bangalore - Marathahalli</p>
+            <p id="fullAdd">3rd Floor, KMJ Arena, No. 89, Outer Ring Road, Anand Nagar, Opp Kalamandhir,  Above IndusInd Bank, Marathahalli, Bangalore - 560037, Karnataka, India.</p>
+          </address>
+          <br>
+          <iframe width="600" height="250" frameborder="0" style="border:0; margin: 0;padding: 0; padding-bottom:-10%;"
+src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ5fSWE3kRrjsRvrtHgB-VqFQ&key=AIzaSyCQfB93E0jkzAlcGLIrNE3GEdE8RltvB4w" allowfullscreen></iframe>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 contactb">
+          <i class="fa fa-envelope"></i>
+          <h1>HELPLINE</h1>
+          <form id="mail" action="./mail.php" method="post">
+            <label for="email">Email</label>
+            <input type="email" id="email" required name="email" placeholder="yourmail@domain.com">
+            <label for="phone">Phone</label>
+            <input type="number" required id="phone" name="phone" placeholder="+91-xxxxxxxxxx">
+            <label for="subject">Subject</label>
+            <input type="text" name="subject" id="subject" placeholder="Any Support request and questions">
+            <label for="message">Message</label>
+            <textarea id="message" required placeholder="Enter your Message" name="message" rows="3" cols="90"></textarea>
+            <button name="send" type="submit"><i class="fa fa-paper-plane"></i>&emsp;Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2017, Hrinzights Technologies Private Limited, All Rights are reserved.
+    </footer>
+</body>
+<script src="./script/jquery.js"></script>
+<script src="./script/script.js"></script>
+</html>
